@@ -6,21 +6,25 @@ body {
   gap: 18px;
 }
 
-.fruits {
+.fruit {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
 }
+
 img {
   width: 100px;
   height: 100px;
 }
 
-
-.text{
+.text {
+  width: 200px;
+  height: auto;
   display:flex;
   flex-flow: row, wrap;
   text-align: center;
+  
 }
 .title {
   font-size: 36px;
@@ -30,7 +34,7 @@ img {
 .page {
 display: flex;
 justify-content: center;
-align-items: center;
+align-items: flex-start;
 }
 
 /* do not edit this footer */
